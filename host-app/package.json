@@ -1,0 +1,22 @@
+{
+  "name": "nextjs-react_host-app",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "rm -rf ./.next && NODE_OPTIONS=\"--max_old_space_size=8000\" NEXT_PRIVATE_LOCAL_WEBPACK=true PORT=3000 next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@module-federation/nextjs-mf": "^8.1.0-canary.7",
+    "@tanstack/react-query": "^5.13.4",
+    "next": "^13.0.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "8.55.0",
+    "eslint-config-next": "13.5.6",
+    "webpack": "5.89.0"
+  }
+}

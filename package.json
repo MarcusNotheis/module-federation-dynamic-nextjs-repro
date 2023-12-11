@@ -1,0 +1,13 @@
+{
+  "name": "nextjs-react",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "workspaces": [
+    "host-app",
+    "remote-app"
+  ],
+  "scripts": {
+    "start": "pnpm --parallel --filter nextjs-react_* run dev"
+  }
+}
